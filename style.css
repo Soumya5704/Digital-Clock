@@ -12,7 +12,8 @@
     position: relative;
 }
 .container{
-    width: 800px;
+    width: 90%;
+    max-width: 800px;
     height: 180px;
     position: absolute;
     top: 50%;
@@ -52,7 +53,7 @@
     z-index: -1;
 }
 .clock span{
-    font-size: 80px;
+    font-size: clamp(40px, 10vw, 80px);
     width: 110px;
     display: inline-block;
     text-align: center;
